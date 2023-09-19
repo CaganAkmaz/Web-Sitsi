@@ -16,6 +16,6 @@ h1 {
 
 h2 {
     color: hwb(0 0% 34%); /* Başlık rengi */
-    font-size: 15px; /* Başlık yazı tipi boyutu */
+    font-size: 29px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
