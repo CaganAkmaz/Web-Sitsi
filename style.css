@@ -9,7 +9,35 @@ h1 {
     color: #00a800; /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */ 
+    
 }
+
+h1:hover{
+    animation: color-change 3s infinite;
+}
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+
+    
+
+
+
+
 
 
 
@@ -19,3 +47,4 @@ h2 {
     font-size: 29px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
+
